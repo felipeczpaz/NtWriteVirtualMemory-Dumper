@@ -16,9 +16,11 @@ This C++ DLL hooks `NtWriteVirtualMemory` and dumps the `Buffer` parameter to a 
 
 ### Building
 
+To build the DLL, follow these steps:
+
 1. Clone the repository: `git clone https://github.com/felipeczpaz/NtWriteVirtualMemory-Dumper.git`
-2. Open the solution in Visual Studio.
-3. Build the solution (`Ctrl+Shift+B`).
+2. Compile dllmain.cpp: Use any C++ compiler capable of building Windows DLLs.
+4. Copy the DLL: Once compiled, copy NtWriteVirtualMemoryDumper.dll to the desired directory.
 
 ### Installation
 
